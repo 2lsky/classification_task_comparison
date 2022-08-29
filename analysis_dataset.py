@@ -12,6 +12,7 @@ abs_file_path = os.path.join(script_dir,
                              rel_path)
 data = pd.read_csv(abs_file_path)
 
+
 def add_drops(data):
     gen_1 = np.random.RandomState(seed=0)
     gen_2 = np.random.RandomState(seed=1)
